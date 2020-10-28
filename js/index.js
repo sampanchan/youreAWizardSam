@@ -15,14 +15,20 @@ var wizardQuestions = document.querySelectorAll('section')
 let nextButton = document.querySelectorAll('button')
     
 
+for (let i = 0; i < wizardQuestions.length; i++){
+    wizardQuestions[0].classList.add('active')
+}
+
 nextButton.forEach(function(button){
 button.addEventListener= ('click', function({
-    
+
 }))
 }
     {
     
 });
 
+let currentQuestion= 0
+let allQuestions= 7
 
 
