@@ -1,0 +1,182 @@
+
+
+
+body{
+    background-image: url(https://wizardsunitehub.info/wp-content/uploads/2019/03/hogwarts-background.jpg);
+    repeat: none;
+
+}
+
+html{
+    font-family: 'Henny Penny', cursive;
+}
+
+.q   {
+    background-color: slategrey;
+text-align: center;
+max-width: 650px;
+align-items: center;
+margin: 0 auto;
+border-radius: 10px;
+opacity: 80%;
+padding: 2em;
+/* display: none; */
+
+}
+/* .q.active{
+    display: block;
+} */
+
+ /* //Question 1 */
+h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: gold;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+form .Q1{
+    display: flex;
+}
+
+.question-one{
+    /* background-color: slategrey;
+    text-align: center;
+    max-width: 650px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 80%;
+    padding: 2em; */
+     
+}
+.question-one h2{
+    color: gold;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.question-one label{
+    color: gold;
+    line-height: 2;
+
+}
+
+.Q1 div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.Q1 button{
+    width: 10%;
+    padding: .5em;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+
+
+/* // Question 2 */
+h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: gold;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+form .Q2{
+    display: flex;
+}
+
+.question-two{
+    /* background-color: slategrey;
+    text-align: center;
+    max-width: 650px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 80%;
+    padding: 2em; */
+     
+}
+.question-two h2{
+    color: gold;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.question-two label{
+    color: gold;
+    line-height: 2;
+
+}
+
+.Q2 div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.Q2 button{
+    width: 10%;
+    padding: .5em;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+/* // Question 3 */
+h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: gold;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+form .Q3{
+    display: flex;
+}
+
+.question-three{
+    /* background-color: slategrey;
+    text-align: center;
+    max-width: 650px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 80%;
+    padding: 2em; */
+     
+}
+.question-three h2{
+    color: gold;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.question-three label{
+    color: gold;
+    line-height: 2;
+
+}
+
+.Q3 div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.Q3 button{
+    width: 10%;
+    padding: .5em;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+
