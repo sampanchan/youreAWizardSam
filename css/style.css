@@ -11,21 +11,20 @@ html{
     font-family: 'Henny Penny', cursive;
 }
 
-.q   {
+.q {
     background-color: slategrey;
-text-align: center;
-max-width: 650px;
-align-items: center;
-margin: 0 auto;
-border-radius: 10px;
-opacity: 80%;
-padding: 2em;
-/* display: none; */
-
+    text-align: center;
+    max-width: 650px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 80%;
+    padding: 2em;
+    display: none;
 }
-/* .q.active{
+.q.active{
     display: block;
-} */
+}
 
  /* //Question 1 */
 h1{
@@ -179,4 +178,167 @@ form .Q3{
     margin-top: 2em;
 }
 
+/* Question Four */
+h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: gold;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+form .Q4{
+    display: flex;
+}
+
+.question-four{
+    /* background-color: slategrey;
+    text-align: center;
+    max-width: 650px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 80%;
+    padding: 2em; */
+     
+}
+.question-four h2{
+    color: gold;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.question-four label{
+    color: gold;
+    line-height: 2;
+
+}
+
+.Q4 div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.Q4 button{
+    width: 10%;
+    padding: .5em;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+
+/* Question Five */
+h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: gold;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+form .Q5{
+    display: flex;
+}
+
+.question-five{
+    /* background-color: slategrey;
+    text-align: center;
+    max-width: 650px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 80%;
+    padding: 2em; */
+     
+}
+.question-five h2{
+    color: gold;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.question-five label{
+    color: gold;
+    line-height: 2;
+
+}
+
+.Q5 div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.Q5 button{
+    width: 10%;
+    padding: .5em;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+
+
+.house {
+    text-align: center;
+    max-width: 650px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 80%;
+    padding: 2em;
+    line-height: 2;
+    flex-direction: column;
+    margin: 0 auto;
+    display: flex;
+    display: none;
+}
+
+.house.selected {
+    display: flex;
+}
+
+
+.house h2 {
+    line-height: 2;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* syltherin */
+
+#green{
+    background-color: green;
+    color: gold;
+}
+
+#green h2,
+#red h2,
+#blue h2 {
+    color: gold;
+}
+
+/* Ravenclaw */
+#blue{
+    background-color:lightskyblue;
+    color: gold;
+}
+
+/* Griffindor */
+#red{
+    background-color:red;
+    color: gold;
+}
+
+/* Hufflepuff */
+#yellow{
+    background-color:yellow;
+    color: black;
+}
+#yellow h2{
+    color: black;
+}
+  
 
